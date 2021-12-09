@@ -2,6 +2,7 @@ backend "consul" {
   address = "consul:8500"
   path = "vault/"
 }
+ui = true
 
 listener "tcp" {
   address = "0.0.0.0:8200"
